@@ -1,0 +1,33 @@
+form {
+  border-radius: 10px;
+  width: 65%;
+  height: 280px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: gray; */
+  background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1719014400&semt=ais_user");
+  padding: 10px 0px;
+  animation: slide-down 800ms ease-out forwards;
+  left: calc(50% - 23rem);
+}
+form > div {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

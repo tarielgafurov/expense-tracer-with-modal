@@ -1,0 +1,27 @@
+.expenses{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.expenses > h1{
+    color: white;
+    background-color: rgb(46, 45, 45);
+    padding: 10px;
+    border-radius: 5px;
+}
+.expenses > h2{
+    color: white;
+    background-color: rgb(46, 45, 45);
+    padding: 10px;
+    border-radius: 5px;
+}
+.expenses > h3{
+    color: white;
+    background-color: rgb(46, 45, 45);
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,14 @@
+.containerFilter{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 3px solid white;
+}
+.containerFilter > select{
+    padding: 7px 45px;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    outline: none;
+}

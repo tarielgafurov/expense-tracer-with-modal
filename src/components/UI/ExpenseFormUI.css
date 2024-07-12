@@ -1,0 +1,32 @@
+.container-form{
+    /* border: 2px solid red; */
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* padding: 15px; */
+}
+.container-form > label{
+    font-size: 1.5rem;
+    color: white;
+}
+.container-form > input{
+    width: 180px;
+    height: 25px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1.1rem;
+    opacity: 0.7;
+    background-color: gray;
+}
+input{
+    border: 3px solid white;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+input:hover{
+    cursor: pointer;
+}
